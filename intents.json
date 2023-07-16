@@ -1,0 +1,22 @@
+{"intents": [
+  { "tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up","how is it going?"],
+  "responses": ["Hello!","Hey!","What can i do for you?"]
+  },
+  {"tag": "goodbye",
+  "patterns": ["cya","see you later","Good bye","I am Leaving","Have a Good Day","bye","cao","see ya"],
+    "responses":["Sad to see you go :(","Talk to you later","Goodbye!"]
+  },
+  {"tag": "IODA",
+  "patterns": ["IODA","What is IODA?","IODA url","IODA Link"],
+  "responses": ["IODA is a deployment tool like CI/CD Pipeline, It maintains Versions of your code and the URL is https:www.ioda.reno/223. Delivery DIrectior is *****."]
+    },
+    {"tag": "Dlg",
+    "patterns": ["dlg","What is dlg?","dlg url","dlg link"],
+    "responses":  ["DLG is Domain lemon generation. It is used to check logs of batches. Delivery DIrector is *****"]
+    },
+  {"tag": "NCS",
+    "patterns": ["NCS","What is NCS?","NCS url","NCS link"],
+    "responses":  ["NCS is Domain lemon generation. It is used to check logs of batches. Delivery DIrector is ****"]
+    }
+]}
